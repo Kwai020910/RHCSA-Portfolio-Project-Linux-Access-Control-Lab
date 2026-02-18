@@ -1,21 +1,21 @@
+# RHCSA Portfolio Project – Linux Access Control Lab
 
-### Users / Groups
-Groups:
-- engineering
-- finance
-- support
+This project demonstrates RHCSA-aligned Linux system administration skills:
+- User & group management
+- Linux permissions & ownership
+- ACLs for fine-grained access control
+- Special permissions (SUID, SGID, Sticky Bit)
+- Least-privilege security model
 
-Users:
-- eng01, eng02  -> engineering
-- fin01         -> finance
-- sup01         -> support
-- auditor       -> read-only access across departments via ACL
+## Scenario
+Simulated enterprise environment for AquilaTech Solutions.
 
-## Quick start
+## Skills Demonstrated
+- chmod, chown, chgrp
+- setfacl, getfacl
+- SGID for collaborative directories
+- Sticky bit for shared directories
+- SUID for controlled privileged execution
 
-### 1) Setup
-```bash
-git clone <your-repo-url>
-cd rhcsa-access-control-lab
-sudo chmod +x scripts/*.sh
-sudo ./scripts/setup.sh
+## Validation
+All configurations verified using RHCSA-style audit commands.
