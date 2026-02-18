@@ -1,21 +1,18 @@
-# RHCSA Portfolio Project – Linux Access Control Lab
+# RHCSA Portfolio Project – Enterprise Linux Access Control & Security Hardening Lab
 
-This project demonstrates RHCSA-aligned Linux system administration skills:
+A hands-on, employer-friendly RHCSA-aligned project demonstrating:
 - User & group management
-- Linux permissions & ownership
-- ACLs for fine-grained access control
-- Special permissions (SUID, SGID, Sticky Bit)
-- Least-privilege security model
+- Linux ownership and permissions (chmod/chown/chgrp)
+- ACLs (setfacl/getfacl) for fine-grained access
+- Special permissions: SUID, SGID, Sticky Bit
+- Least-privilege security model + verification
 
-## Scenario
-Simulated enterprise environment for AquilaTech Solutions.
+## Scenario (Real-World)
+You are a Linux administrator at **AquilaTech Solutions**.  
+A shared server hosts sensitive data for multiple departments:
+- Engineering
+- Finance
+- Support  
+You must implement access controls to ensure collaboration *without* data leakage.
 
-## Skills Demonstrated
-- chmod, chown, chgrp
-- setfacl, getfacl
-- SGID for collaborative directories
-- Sticky bit for shared directories
-- SUID for controlled privileged execution
-
-## Validation
-All configurations verified using RHCSA-style audit commands.
+## What this builds
